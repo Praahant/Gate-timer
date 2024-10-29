@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
         
     <style>
+        
         body{
             background-color: rgb(22, 21, 21);
             color: rgb(109, 152, 189);
@@ -143,9 +144,11 @@
            
         </div>
         <div id="left">
-            <div>Days left- <div id="date"></div> <button class="quotebtn" onclick="getQuote()">New quote</button></div>
+            <div>Days left- <div id="date"></div>
+            <button class="quotebtn" onclick="getQuote()">New quote</button>
+        </div>
             <div id=""> 
-                 <p id="quote"></p>
+                 <p id="quote">You do it right. And you do it every day.<br>  </p>
             </div>
             
         </div>
@@ -174,7 +177,7 @@ $.ajax({
     }
 });
 }
-getQuote();
+// getQuote();
 // api end
 // streak days
 
